@@ -24,6 +24,11 @@ html{
     font-weight: 300;
     font-family: 'Roboto', sans-serif; 
 }
+a {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
 .grid {
     width: 1200px;
     max-width: 100%;
