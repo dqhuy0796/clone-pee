@@ -24,9 +24,6 @@ html{
     font-weight: 300;
     font-family: 'Roboto', sans-serif; 
 }
-body{
-    height: 3000px;
-}
 .grid {
     width: 1200px;
     max-width: 100%;
@@ -138,7 +135,48 @@ body{
     color: var(--secondary-text-color);
     background: #f9f9f9;
 }
-
+/* PAGINATION */
+.pagination__list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    gap: 36px;
+}
+.pagination__item{
+    display: flex;
+    height: 36px;
+    min-width: 36px;
+    border: none;
+    cursor: pointer;
+}
+.pagination__link{
+    margin: auto;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #939393;
+}
+.pagination__item:hover .pagination__link,
+.pagination__link:hover{
+    font-weight: 600;
+    color: var(--black-color);
+}
+.pagination__item--active{
+    border-radius: 2px;
+    background: var(--primary-color);
+}
+.pagination__item--active .pagination__link{
+    color: var(--white-color);
+}
+.pagination__item--active:hover .pagination__link{
+    /* font-weight: 400; */
+    color: var(--primary-color);
+}
+.pagination__item--active:hover{
+    background: var(--white-color);
+    border: 1px solid var(--primary-color);
+}
 /* ANIMATION */
 @keyframes fadeIn {
     from    {opacity: 0;}

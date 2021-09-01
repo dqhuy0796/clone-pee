@@ -691,7 +691,6 @@
     margin-left: 10px;
     list-style: none;
 }
-/* .catagory-item{} */
 .catagory-item__link{
     display: block;
     position: relative;
@@ -996,6 +995,113 @@ i.home-product-item__love-yes,
     line-height: 1.4rem;
     text-transform: uppercase;
     color: var(--white-color);
+}
+/* PAGINATION */
+.home-pagination{
+    margin: 48px 0 32px 0;
+}
+/* FOOTER */
+.footer{
+    border-top: 4px solid var(--primary-color);
+}
+/* section 1 */
+.footer__heading{
+    margin: 40px 0 20px 0;
+    padding: 0 8px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: var(--primary-text-color);
+}
+.footer__category{
+    list-style: none;
+}
+.footer__link{
+    display: block;
+    padding: 8px;
+    font-size: 1.2rem;
+    font-weight: 400;
+    text-decoration: none;
+    color: var(--secondary-text-color);
+}
+.footer__link i{
+    position: relative;
+    top: 3px;
+    margin: 0 4px;
+    font-size: 2rem;
+}
+.footer__link:hover{
+    color: var(--primary-color);
+}
+.footer__link:hover i,
+.footer__link i:hover{
+    color: var(--secondary-text-color);
+}
+.footer__payment-img img,
+.footer__delivery-img img{
+    padding: 0 10px;
+    width: 100%;
+}
+.footer__download{
+    display: flex;
+    height: 100px;
+}
+.footer_qr{
+    width: 100px;
+}
+.footer_qr .footer__link{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    border: 1px solid #a3acb1;
+}
+.footer__app{
+    flex: 1;
+    display: flex;
+    align-items: left;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.footer__app .footer__link{
+    padding: 2px 2px 2px 24px;
+}
+.footer__img{
+    width: 100%;
+    height: 100%;
+}
+/* section 2 */
+.footer__area{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 0;
+    width: 100%;
+    border-top: 1px solid #e3e3e3;
+}
+.footer__copyright{
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: var(--secondary-text-color);
+}
+.footer__country{
+    display: flex;
+    align-items: center;
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: var(--secondary-text-color);
+}
+.footer__country-link{
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+    padding: 0 6px;
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: var(--secondary-text-color);
+}
+.footer__country-link:hover{
+    cursor: pointer;
+    color: var(--primary-color);
 }
 /* MODAL */
 .form{
